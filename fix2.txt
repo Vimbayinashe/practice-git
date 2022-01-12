@@ -1,0 +1,26 @@
+ git init Lab1
+ git add README.md
+ git commit -m "Initial commit"
+ git branch -M main
+ git switch -c feature1
+ git add README.md
+ git commit -m "Update animals"
+ git switch main
+ git add README.md
+ git commit -m "Update moose to mahmut"
+ git merge feature1
+ git add README.md
+ git commit -m "Resolve merge conflict"
+ git tag -a extinct -m "Add extinct tag"
+ git reset --hard 87978
+ git branch feature2
+ git add README.md
+ git commit -m "Capitalise animal names"
+ git switch feature2
+ git add fix1.txt
+ git commit -m "Add fix1.txt"
+ git add fix2.txt
+ git commit -m "Add fix2.txt"
+ git switch main
+ git log --all --oneline
+ git cherry-pick a13b
