@@ -1,3 +1,3 @@
-duck
-cat
-mahmut
+Duck
+Mahmut
+Cat
