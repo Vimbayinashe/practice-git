@@ -24,3 +24,9 @@
  git switch main
  git log --all --oneline
  git cherry-pick a13b
+ git add fix2.txt
+ git commit -m "Add all git commands to fix2.txt"
+ git remote add origin git@github.com:Vimbayinashe/practice-git.git
+ git push -u origin --all
+ git push origin extinct
+
